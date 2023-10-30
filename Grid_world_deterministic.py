@@ -125,7 +125,7 @@ class Agent:
         STATE_MAT[self.State.state] = 1
         self.im.set_data(STATE_MAT)
         self.im.autoscale()
-        plt.pause(0.05)
+        plt.pause(0.1)
 
         STATE_MAT[self.State.state] = 0
 
